@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Music RC</string>
+      <string name="allpc">all PC</string>
+    <string name="versionprogram">20</string>
+    <string name="back">◄</string>
+    <string name="fast">fast mode</string>
+    <string name="fast_summary">fast mode without answer from server</string>
+    
+    
+    
+    <string name="videosearch">Search</string>
+    
+    
+    <string name="calling">Incoming call</string>
+		<string name="calling_summary">The action for an incoming call</string>
+		
+		<string-array name="calling_value_array">
+		<item>1</item>
+			<item>2</item>
+			<item>3</item>		
+	</string-array>
+		
+		
+		<array name="calling_array">		    
+			<item>Show number of an incoming call</item>
+			<item>Show number and pause of player</item>
+			<item>none</item>
+		
+		</array>
+    
+		<string name="list_server">List servers</string>
+    <string name="wakeup">Power On</string>
+    <string name="discover_action_check">Check conection with RCS</string>
+    <string name="btn_ping">Check server</string>
+      <string name="live">server connection new</string>
+      <string name="live_summary">Open each time a new connection (reliable) or maintain the old (faster).</string>
+    
+     <string name="adds">ads</string>
+      <string name="adds_summary">show ads</string>
+    
+    <string name="nextversion">features will be available in the next version client</string>
+    <string name="transfercontrol">File transfer, \nscreenshot</string>
+    <string name="mousecontrol">Mouse control of server</string>
+    <string name="bscreenshot">Big Scr.</string>
+    <string name="screenshot">Get Screenshot</string>
+     <string name="lock">Lock scr</string>
+    <string name="exchange">File Copy</string>
+    <string name="noconnect">NO connect</string>
+    <string name="memoapp">RUN selected player, Change player, Close all Player</string>
+    <string name="selectedplayer">Selected player (change)</string>
+    <string name="start">RUN</string>
+     <string name="change">Change</string>
+     <string name="closeall">Close</string>
+     <string name="autocode_title">Auto code</string>
+	<string name="autocode_summary">Auto assign code when scanning servers or manual set other code</string>
+	
+	<string name="autoip_title">All IP</string>
+	<string name="autoip_summary">Send broadcast messages for all PC</string>
+        
+        
+    <string name="server_set">Manual configuration</string>
+    
+    <string name="notvalidmac">Not valid MAC address of server </string>
+    
+    <string name="empty"> </string>   
+	<string name="ip"></string>
+	
+	<string name="server_scan">Search of server</string>
+	
+	<string name="settings_label">Settings</string>
+	<string name="settings_title">Settings</string>
+	
+	<string name="screenlock">Screen Lock</string>
+			<string name="screenlock_summary">Do not lock the screen</string>
+	
+	<string name="vibro_title">Vibro</string>
+	<string name="vibro_summary">vibro when button is pressed</string>
+
+	<string name="serverftp_title">IP server</string>
+	<string name="serverftp_summary">IP address server on computer</string>
+	
+	<string name="portftp_title">FTP port server</string>
+	<string name="portftp_summary">FTP port server on computer (default is 22)</string>
+	
+	<string name="portudp_title">UDP port server</string>
+	<string name="portudp_summary">UDP port server on computer (default is 4568)</string>
+	
+	<string name="passftp_title">code</string>
+	<string name="passftp_summary">code access security to server on PC</string>
+	
+	<string name="master_title">Master Volume</string>
+	<string name="master_summary">Maste Volume / player volume</string>
+	
+	<string-array name="nettype_array">
+	    <item>wifi</item>
+	    <item>3G</item>
+	</string-array>
+	
+	
+	<string-array name="nettype_value_array">
+		<item>1</item>
+		<item>2</item>		
+	</string-array>
+	
+	
+	<string name="ff">FF/Next</string>
+	<string name="ff_summary">FastForward or Next item in list</string>	
+	
+	<array name="ff_array">
+	    <item>Fast Forward / Rewind</item>
+		<item>Next item in list</item>				
+	</array>
+
+	<string-array name="ff_value_array">
+		<item>1</item>
+		<item>2</item>		
+	</string-array>
+	
+	<string name="ip_select_title">Type player</string>
+	<array name="menuIP">
+			    <item>VIDEO</item>
+		    <item>MUSIC</item>
+		    <item>PHOTO</item>	
+		    <item>BEHOLD TV</item>
+			<item>Select server</item>
+			<item>Change the Server Type</item>
+			<item>Other players</item>
+	</array>
+	
+	<string name="playaudio_select_title">Type play</string>
+		<array name="menuPlaymusic">
+			    <item>One song</item>
+		    <item>All Folder</item>
+		    <item>Album</item>	
+			<item>Artist</item>
+			<item>All</item>
+			<item>Shuffle</item>
+	</array>
+	
+	<string name="power_select_title">Shut down Windows</string>
+	
+		<array name="menuPower">
+		<item>-=power ON=-</item>
+		<item>power OFF</item>
+		<item>reboot</item>
+		<item>shutdown</item>		
+		<item>hibernate</item>
+		<item>standby</item>	
+
+	</array>
+	
+		<string name="Code">Code</string>
+		<string name="ipadress">IP PC</string>
+		<string name="About">About</string>
+	
+			<string name="about_text">Remote Control - Music\n
+		    \nRC is a Program to control a PC from Android smartphone
+		    \nThe program include of a (Client) on your phone and a (Server) on your PC.   
+		    \nManual:
+\n1 Computer and smartphone must be connected to the same network WiFi.		    
+\n2 Download and install it on a computer with Windows  program (Remote Control Server) from http://alexsoft.in
+\n3 Run a server on your PC (starts automatically after install) - 
+\n4 If you have Windows 7 PC, then all ready to work. 
+\n FOR WINDOWS 8 PC:
+\n5 If you have Windows 8 PC, then In the settings select Windows 8 and console to launch the (Search of Server) and select the found computer
+\n6 You can set setting manual - a) select - Windows 8 PC b)  Manual configuration - enter IP server, access code and MAC address from RC server program on PC
+\n\n\n
+Desing by Vasile Sayfutdin,  www.dropr.com/vsf 
+		    \n\n\nv 2.0.2.3 © AlexSoft. 2014г.
+		    \nhttp://alexsoft.in 
+</string>	
+
+		<string name="needwifi">Need Wifi connections to home network!</string>
+		<string name="simple_title">type con</string>
+		
+		<string name="simple_summary">default is checked.</string>
+		
+		<string name="task_starting">Connecting to the server.</string>
+		<string name="wait">wait</string>
+		
+		<string name="yes">OK</string>
+		<string name="no">Cancel</string>
+		
+		<string name="ipadressserver">IP address of the server</string>
+		<string name="ipadresstip">Type IP address server from PC</string>
+		<string name="codewrong">Invalid access code - enter code from the computer app (RC Server) and try again</string>
+		<string name="newcode">New Code</string>
+		<string name="entercode">Type code :</string>
+		
+		<string name="searchurl">file:///android_asset</string>
+	
+		<string name="ftptransfererror">Error transfer by FTP</string>
+		
+		<string name="vol_select_title">Vol Menu</string>
+	
+		
+	
+			<array name="Menu_volume">
+		    <item>7 %  ██</item>
+			<item>18 % ████</item>
+			<item>25 % ██████</item>
+			<item>33 % ████████</item>		
+			<item>55 % ██████████</item>
+			<item>77 % ████████████</item>
+			<item>99 % ██████████████</item>
+			
+	</array>				
+		
+	
+		<string name="timer_select_title">Sleep mode Menu</string>
+	
+
+		<array name="menuTimer">
+		    <item>Turn off sleep mode</item>
+			<item>1 minute</item>
+			<item>3 minutes</item>
+			<item>5 minutes</item>
+			<item>10 minutes</item>
+			<item>20 minutes</item>		
+			<item>30 minutes</item>
+			<item>45 minutes</item>
+			<item>1 hour</item>
+			<item>1.5 hours</item>
+			<item>2 hours</item>
+			<item>2.5 hours</item>
+			<item>3 hours</item>
+
+	</array>
+	
+		<string name="apps_select_title">App Menu</string>
+	
+
+		<array name="menuApps">
+		    <item>VIDEO</item>
+		    <item>MUSIC</item>
+		    <item>PHOTO</item>		    
+			<item>VLC</item>
+			<item>PowerDVD</item>
+			<item>Windows Media Player</item>
+			<item>Total Media Theatre</item>
+			<item>Winamp Media Player</item>			
+			<item>jetAudio</item>
+			
+			<item>AIMP</item>
+			<item>GOM Media Player</item>
+			<item>KMPlayer</item>
+			<item>Media Player Classic HC</item>
+			<item>GOM Audio</item>
+			<item>PotPlayer</item>
+			<item>IPTV</item>
+			<item>BSPlayer</item>
+			<item>LightAlloy</item>
+			<item>BeholdTVtuner</item>
+			<item>My player 1</item>		
+			<item>My player 2</item>
+			<item>My player 3</item>
+			
+			<item>Default</item>	
+			
+			
+	
+	</array>
+	
+		<string name="videoplayer">Media player</string>
+		<string name="video_summary">Choose which media player is used by default</string>
+		
+		<array name="servertype_array">		    
+			<item>Windows 7</item>
+			<item>Windows 8</item>
+		</array>
+		
+		<string-array name="servertype_value_array">
+			<item>1</item>
+			<item>2</item>
+		</string-array>
+		
+		<string name="servertype_summary">type server communication</string>
+		<string name="servertype">type server</string>
+		
+			
+		<array name="v_array">
+		    <item>VIDEO</item>
+	    	<item>MUSIC</item>
+	    	<item>PHOTO</item>
+		    </array>
+		    
+		    <string-array name="v_value_array">
+		        <item>1</item>
+			<item>2</item>
+			<item>3</item>
+		        </string-array>
+		
+	<array name="video_array">	
+	    	<item>VIDEO</item>
+	    	<item>MUSIC</item>
+	    	<item>PHOTO</item>
+	    	    
+			<item>Vlc</item>
+			<item>PowerDVD</item>
+			<item>Windows Media Player</item>
+			<item>Total Media Theatre</item>
+			<item>Winamp</item>
+			<item>JetAudio</item>
+			
+			<item>AIMP</item>
+			<item>GOM Media Player</item>
+			<item>KMPlayer</item>
+			<item>Media Player Classic HC</item>
+			<item>GOM Audio</item>
+			<item>PotPlayer</item>
+			<item>IPTV</item>
+			<item>BSPlayer</item>
+			<item>LightAlloy</item>
+			<item>Behold TV tuner</item>
+			<item>My player 1</item>		
+			<item>My player 2</item>
+			<item>My player 3</item>
+			
+			<item>Default</item>
+		</array>	
+	
+		
+<string-array name="video_value_array">
+		<item>1</item>
+			<item>2</item>
+			<item>3</item>
+			<item>4</item>			
+			<item>5</item>
+			<item>6</item>
+			
+			<item>7</item>
+			<item>8</item>
+			<item>9</item>
+			<item>10</item>
+			<item>11</item>
+			<item>12</item>
+			
+			<item>13</item>
+			<item>14</item>
+			<item>15</item>
+			<item>16</item>
+			<item>17</item>
+			<item>18</item>
+			<item>19</item>
+			<item>20</item>
+			
+			<item>21</item>
+			<item>22</item>
+			<item>23</item>
+	</string-array>
+				
+		
+		<string name="myapp">https://play.google.com/store/apps/details?id=in.alexsoft.rc.client</string>
+		<string name="task_cancelled">Task is cancelled by user</string>
+		<string name="task_working">Ping a server</string>
+		
+		<string name="ipnotcorrect">IP address is not valid or is server PC shut down OR firewall PC denied access to the Remote Control Server</string>
+		<string name="ipbad">not the correct IP address. Range from 192.168.1.1 to 192.168.1.255</string>
+		<string name="ipnow">Current IP address is:</string>
+		
+		<string name="wakeup_title">Power On</string>
+	<string name="wakeup_summary">turn on the PC by IP and MAC address</string>
+
+	
+		<string name="mac_title">MAC address</string>
+	<string name="mac_summary">MAC address of the network card PC - look in RC Server</string>
+	
+	<string name="entermac">Not specified of MAC address of the network card PC - look in RC Server</string>
+	
+	<string name="tema">Theme</string>
+		<string name="tema_summary">choice of theme background</string>
+	
+			<array name="tema_array">		    
+			<item>Dark</item>
+			<item>Light</item>
+			<item>GOA</item>			
+		</array>	
+	
+		
+<string-array name="tema_value_array">
+		<item>1</item>
+			<item>2</item>
+			<item>3</item>
+			</string-array>
+			
+	<!-- ************************** NETWORK *********************** -->
+			
+	<string name="app_loading">Loading</string>
+    <string name="btn_yes">Yes</string>
+    <string name="btn_no">No</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_discover">Discover</string>
+    <string name="btn_discover_cancel">Cancel</string>
+    <string name="btn_export">Export</string>
+    <string name="btn_close">Close</string>
+    <string name="btn_scan">Scan</string>
+    <string name="btn_options">Options</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_info">Info</string>
+    <string name="btn_ports">Ports</string>
+    <string name="btn_remove">Remove</string>
+    
+    <string name="task_db">Downloading and installing %s database ...</string>
+    <string name="task_services">Creating Services database ...\nThis may take a while ...</string>
+ 
+    <string name="package_missing">%s must be installed from the market !</string>
+    
+    <string name="wifi_enabled">Wifi is enabled</string>
+    <string name="wifi_enabling">Wifi is enabling</string>
+    <string name="wifi_disabling">Wifi is disabling</string>
+    <string name="wifi_disabled">Wifi is disabled</string>
+    <string name="wifi_scanning">Wifi is scanning</string>
+    <string name="wifi_associating">Wifi is associating with %s</string>
+    <string name="wifi_dhcp">Obtaining IP address from %s</string>
+    <string name="wifi_unknown">Wifi state unknown</string>
+    
+    <string name="net_ip">IP: %1$s/%2$d (%3$s)</string>
+    <string name="my_ip">%1$s</string>
+    
+    <string name="net_carrier">CARRIER: %s</string>
+    <string name="net_ssid">SSID: %s</string>
+    <string name="net_mode">MODE: %s</string>
+    <string name="net_mode_wifi">WiFi (%1$s %2$s)</string>
+    <string name="net_mode_mobile">Mobile</string>
+    <string name="net_mode_eth">Ethernet (Not supported yet)</string>
+    <string name="net_mode_unknown">Unknown</string>
+    
+    <string name="discover_start">Discovery started ...</string>
+    <string name="discover_finished">Discovery finished !</string>
+    <string name="discover_canceled">Discovery canceled !</string>
+    <string name="discover_proxy_title">Proxy Error</string>
+    <string name="discover_proxy_msg">Discovery is canceled, because a mac address appeared multiple times, you probably are behind a proxy.\n\nGo to your Gateway from the browser : http://%s</string>
+    <string name="discover_root_title">Installation: Root</string>
+    <string name="discover_root_install">Do you want to install the scan daemon for root ?</string>
+    <string name="discover_root_restart">Restarting application ...</string>
+    <string name="discover_empty">Press Discover to start</string>
+    <string name="discover_action_title">Choose an action</string>
+    <string name="discover_action_scan">Scan ports</string>
+    <string name="discover_action_assign">Assign server</string>
+    <string name="discover_action_rename">Rename server</string>
+    <string name="discover_action_up">Move up</string>
+    <string name="discover_action_down">Move down</string>
+    <string name="discover_action_del">Remove</string>
+    <string name="discover_action_saved">IP and MAC address saved!</string>
+    <string name="discover_action_deleted">Name deleted!</string>
+    <string name="discover_myphone_name">MyPhone</string>
+        
+    <string name="scan_single_title">Scan IP</string>
+    <string name="scan_single_summary">Enter an IP address or FQDN to scan, i.e. scanme.nmap.org</string>
+    <string name="scan_noport">No open port found !</string>
+    <string name="scan_noaction">No associated action !</string>
+    <string name="scan_connect">Connect</string>
+    <string name="scan_start">Scan started ...</string>
+    <string name="scan_finished">Scan finished - select your PC (server)</string>
+    <string name="scan_canceled">Scan canceled !</string>
+    <string name="scan_open">Open (%s)</string>
+    <string name="scan_closed">Closed (%s)</string>
+    <string name="scan_host_unreachable">Host unreachable !</string>
+    <string name="scan_banner_title">Port %s/tcp</string>
+    
+    <string name="info_time">Response time:</string>
+    <string name="info_mac">MAC Address:</string>
+    <string name="info_nic">NIC vendor:</string>
+    <string name="info_ports_open">Open ports:</string>
+    <string name="info_ports_closed">Closed ports:</string>
+    <string name="info_unknown">PC # </string>
+    
+    <string name="export_finished">File saved !</string>
+    <string name="export_choose">Choose file destination</string>
+    <string name="export_save">Save</string>
+    <string name="export_exists_title">File already exists</string>
+    <string name="export_exists_msg">Do you want to overwrite ?</string>
+    
+    <string name="help_discovery_title">Hosts discovery</string>
+    <string name="help_discovery_content">The method that is being used, does not need to have root privileges. In future release there will be more advanced techniques, once the non-root ones are polished.\n\nHere is how it works: \n1. Calculate the subnetwork range\n2. Iterate throught IP and query them\n3. First it sends an ICMP ping or Echo on tcp/7 (with InetAddress.isReachable())\n4. If it does not work, it tries to connect() on well known open tcp ports such as: 135, 139, 22, 111, 80\n5. If none of the above is successful, the host is not discovered</string>
+    <string name="help_portscan_title">Port scan</string>
+    <string name="help_portscan_content">Port scan is event driven, using Java\'s Selector and SocketChannel.\nThere is a fake timeout by registrering the time in ms at socket\'s creation and checking regularly this value.\nThe port scan method, as discovery, uses full tcp connection check. (will be more granular in the future with root features.)\n\nA maximum of 127 Sockets are opened at a time, so this is not always accurate, but quite fast. Again, a new feature is coming that will adapt times between requests according to host response time (kind of software network congestion control)\n\nA port is considered open when tcp connect() is fully successful, closed when no service is listening on the other end, or filtered when the timeout is reached.</string>
+    <string name="help_links_title">Links</string>
+    <string name="help_links_content">- TCP connect scan: http://nmap.org/book/man-port-scanning-techniques.html#id421401\n\n- Host discovery: http://nmap.org/book/man-host-discovery.html</string>
+    
+    <string name="preferences_help">Help</string>
+    <string name="preferences_export">Export</string>
+    <string name="preferences_credits">Credits</string>
+    <string name="preferences_discover">Discovery</string>
+    <string name="preferences_portscan">Port Scan</string>
+    <string name="preferences_advanced">General</string>
+    
+    <string name="preferences_donate">Donate: If you like this app, you can buy me a beer.</string>
+    <string name="preferences_resolve_name_title">Resolve Hostname</string>
+    <string name="preferences_resolve_name_summary">Use system DNS to resolve ip addresses</string>
+    <string name="preferences_vibrate_title">Vibrate</string>
+    <string name="preferences_vibrate_summary">Vibrate when Scan is completed</string>
+    <string name="preferences_ratecontrol_enable_title">Rate control</string>
+    <string name="preferences_ratecontrol_enable_summary">Enable automatic rate detection</string>
+    <string name="preferences_timeout_discover_title">Custom rate</string>
+    <string name="preferences_timeout_discover_summary">Rate of discovery in millisecondes</string>
+    <string name="preferences_port_start_title">First Port</string>
+    <string name="preferences_port_start_summary">First TCP Port to scan. 1-65535</string>
+    <string name="preferences_port_end_title">Last Port</string>
+    <string name="preferences_port_end_summary">Last TCP Port to scan. 1-65535</string>
+    <string name="preferences_banner_title">Services banners</string>
+    <string name="preferences_banner_summary">Read banner from a connected socket (ex.: SSH-2.0-OpenSSH_5.1p1)</string>
+    <string name="preferences_timeout_force_title">Custom timeout</string>
+    <string name="preferences_timeout_force_summary">Manually set connect timeout</string>
+    <string name="preferences_timeout_title">Connect timeout</string>
+    <string name="preferences_timeout_summary">Timeout of a port connection in millisecondes</string>
+    <string name="preferences_allow_mobile_title">Allow mobile discovery</string>
+    <string name="preferences_allow_mobile_summary">Scan over edge/3g/... usually leading to strange results, if any</string>
+    <string name="preferences_ssh_user_title">SSH User</string>
+    <string name="preferences_ssh_user_summary">Username for the SSH connection</string>
+    <string name="preferences_threads_title">Threads pool</string>
+    <string name="preferences_threads_summary">Maximum number of threads to use in host discovery (1-256)</string>
+    <string name="preferences_resetdb_title">Update NIC Database</string>
+    <string name="preferences_resetdb_summary">Pull and update MAC addresses database</string>
+    <string name="preferences_resetdb_action">Do you want to download %1$s ? (~%2$sk)</string>
+    <string name="preferences_resetdb_ok">Database updated ! %s new entries ...</string>
+    <string name="preferences_version_title">Version</string>
+    <string name="preferences_website_title">Website</string>
+    <string name="preferences_email_title">Contact</string>
+    <string name="preferences_intf_title">Network interface</string>
+    <string name="preferences_intf_summary">Choose which interface to use</string>
+    <string name="preferences_discover_method_title">Discover Method</string>
+    <string name="preferences_discover_method_summary">Change to different method of host discovery</string>
+    <string name="preferences_discover_method_title_dialog">Choose a method</string>
+    <string name="preferences_ip_start_title">IP start</string>
+    <string name="preferences_ip_start_summary">First IP address to scan</string>
+    <string name="preferences_ip_end_title">IP end</string>
+    <string name="preferences_ip_end_summary">Last IP address to scan</string>
+    <string name="preferences_ip_custom_title">Custom IP range</string>
+    <string name="preferences_ip_custom_summary">Manually set start/end IPs</string>
+    <string name="preferences_cidr_custom_title">Custom CIDR</string>
+    <string name="preferences_cidr_custom_summary">Manually set CIDR (defines subnet)</string>
+    <string name="preferences_cidr">Change CIDR</string>
+    
+    <string name="preferences_error1">Error: First is bigger than Last !</string>
+    <string name="preferences_error2">Error: Number of Threads must be between 1 and 256 !</string>
+    <string name="preferences_error3">Error: File transfer interrupted !</string>
+    <string name="preferences_error4">Error: Value is not a valid IP address !</string>
+    
+    <string-array name="method_discover_name">
+        <item>Ping/connect (default)</item>
+        <item>DNS requests</item>
+    </string-array>
+				
+    <string name="space">12345678901234567890123456789012345678901234567890123456789012345678901234567890\n  
+        1234567890\n
+        1234567890\n
+        1234567890\n
+        1234567890\n
+        1234567890\n
+        1234567890\n
+        1234567890\n
+        1234567890\n
+        1234567890\n
+        1234567890\n
+        1234567890\n
+        1234567890\n
+        1234567890\n
+        1234567890\n
+        1234567890\n
+        1234567890\n
+        1234567890\n
+        1234567890\n
+        1234567890\n
+
+
+    </string>
+    
+    <string name="manual">Configuration Wizard</string>
+    <string name="poweroff">Power OFF</string>
+    <string name="hibernate">Hibernate</string>
+    <string name="timermenu">Timer Menu</string>
+    
+    <string name="timeroff">Turn off sleep mode</string>
+    <string name="timeshutdown">PC  shutting down after X minutes</string>
+    <string name="time1">1 minute</string>
+    <string name="time3">3 minutes</string>
+    <string name="time5">5 minutes</string>
+    
+    <string name="time10">10 minutes</string>
+    <string name="time20">20 minutes</string>
+    <string name="time30">30 minutes</string>
+    
+    <string name="time45">45 minutes</string>
+    <string name="time60">1 hour</string>
+    <string name="time90">1.5 hours</string>
+    
+    <string name="time120">2 hours</string>
+    <string name="time150">2.5 hours</string>
+    <string name="time180">3 hours</string>
+    
+    <string name="mastervolume">Master Volume</string>
+    <string name="volume99">██████████████ % 99 </string>
+    <string name="volume77">████████████ % 77 </string>
+    <string name="volume55">██████████ % 55 </string>
+    <string name="volume33">████████ % 33 </string>
+    <string name="volume25">██████ % 25 </string>
+    <string name="volume18">████ %  18 </string>
+    <string name="volume7">██ % 7 </string>
+    
+    <string name="win7">Windows 7</string>    
+    <string name="win8">Windows 8</string>
+    <string name="driveselect">Select Drive</string>
+	<string name="wizardset">Configuration Wizard</string>     
+	<string name="wizardsetstep">Step #</string>
+	<string name="aboutwizard">BLA bla bla \n bla bla bla \n bla bla bla \n bla bla bla \n bla bla bla \n
+	    BLA bla bla \n bla bla bla \n bla bla bla \n bla bla bla \n bla bla bla</string>
+	    
+	<string name="aboutwizard1">FIRST - Download and Install \'REMOTE CONTROL SERVER\' to PC from site WWW.ALEXSOFT.IN
+	    \n\nProgram requires: home WIFI network which is connected to a smartphone based on Android 2.1 or up, a PC with Windows XP/7/8 is connected to the same local network 
+	    \n\n Program (client) must be installed on a smartphone, 
+	    \nprogram (server) must be installed on PC	     
+	    \n\n During install RC Server you need answer - \'Allow access\' for Windows firewall about block this app.
+	    </string>
+
+<string name="aboutwizard2">Select your version of windows on PC, Windows 7 (or XP) or Windows 8. 
+	    \n\n For Windows 7 will be used UDP connections with broadcast translate for all home network with any local IP.
+	    \n\n It\'s easy way to work program and no need other setting. But this way not working with Windows 8. For Windows 8 you need select this and use FTP connections with additional settings.
+	    </string>
+	    
+<string name="aboutwizard3">Setting is over. Check connections - press key with time. If show current time in PC screen, then all OK. Congratulations!
+	    \n\n If not work, check your antivirus, if you used AVAST, then it can blocked normal work of server, switch off antivirus and change for windows Defender. If still not work, then back one step before and select Windows 8 (FTP connections) and try again
+	    </string>
+	    
+<string name="aboutwizard4">You need scaning network and assign founded server for apply all setting. 
+	    \n\n First press key bellow for search server and press \'DISCOVER\'. When server showed in list then press it and \'Assign server\'
+	    \n\n After press \'Show Time\' button. If show current time in PC screen, then all OK. Congratulations!
+	    \n\n If no working, then try enter manual setting in \'Manual configuration menu\'
+	    \n\n For static IP that all OK after reboot too. If your PC have dynamic IP address, than you need after reboot again scaning network and assign new IP of server.
+	    \n\n But your \'code access\' is old value and you must uncheck \'Auto code\' in setting client before rescaning server.  
+	    </string>
+	    
+	    <string name="aboutwizard5">For \'POWER ON\' your PC from RC client you need to:
+	    \n1) Enter MAC address - Manual configuration. Or search server and assign founded PC, MAC address will be assingned is automatically.
+	    \n2) Property of \'network adapter\' need switch on power on lan by magic packet. Other way switch on \'WAKE ON LAN\' from BIOS.
+	    \n3) You need PC power on first time when AC is connected and after shutdown network adapter can power ON from remote control via Wi-Fi network. 
+	    </string>
+	    
+	     <string name="aboutwizard6">For \'POWER ON\' your PC from RC client you need to:
+	    \n1) Correct MAC address of PC - check it in Manual configuration Remote Control Client and match with Remote Control Server.
+	    \n2) Property of \'network adapter\' need switch on power on lan by magic packet. Other way switch on \'WAKE ON LAN\' from BIOS.
+	    \n3) You need PC power one first time when AC is connected. After shutdown PC is ready to \'Power On\' from remote control via Wi-Fi network. 
+	
+	    </string>
+	
+
+	     <string name="please_wait">Please wait</string>
+	     <string name="advertisment_is_loading">advertisment is loading</string>
+	     <string name="playlist">Playlist</string>
+    	
+
+</resources>    
+

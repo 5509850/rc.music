@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1" >
+
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"     >
+
+    <TextView
+        android:id="@+id/textViewTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/wizardset"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Snow" />
+
+      <TableLayout
+        android:id="@+id/TableLayout01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"        
+        android:isScrollContainer="true" >
+
+        <TableRow
+            android:id="@+id/TableRow01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+           
+            <Button
+        android:id="@+id/prev"        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/prevtracks"  />
+    
+       <Button
+                android:id="@+id/textViewStep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+        		android:gravity="center_horizontal|center_vertical"        		
+                android:text="@string/wizardsetstep"
+                android:textSize="22sp" 
+                android:textColor="@color/Snow"
+                android:background="@drawable/empty" >
+            </Button>     
+   <Button
+        android:id="@+id/next"
+        android:layout_marginTop="10dp"        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/nexttracks"  />
+    </TableRow>
+        
+    </TableLayout>
+   <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="fill_horizontal"
+        >
+       
+      <RadioButton
+            android:id="@+id/win7"
+            android:layout_gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:textSize="22sp"
+            android:textColor="@color/Snow"
+            android:text="@string/win7"             />
+   
+       <Button
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"                
+        		android:gravity="center_horizontal|center_vertical"
+                android:background="@drawable/empty2" >
+            </Button>
+
+        <RadioButton
+            android:id="@+id/win8"
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:textColor="@color/Snow"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:text="@string/win8" />
+        </RadioGroup>
+
+
+<TextView
+	android:id="@+id/about_content"
+	android:layout_width="wrap_content"
+    android:layout_height="wrap_content"    
+    android:layout_gravity="center_horizontal"
+    android:text="@string/aboutwizard"
+			>
+	</TextView>
+
+<ImageView
+    android:id="@+id/imageViewWizard"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:src="@drawable/firewall" />
+</LinearLayout>
+</ScrollView>

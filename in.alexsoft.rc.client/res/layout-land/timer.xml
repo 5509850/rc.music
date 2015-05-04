@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/timermenu"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Snow" />
+    
+      <TableLayout        
+        android:id="@+id/fullscreen_content4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"        
+        android:isScrollContainer="true" >   
+         
+
+        <TableRow
+            android:id="@+id/TableRow0001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >  
+    
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal" >
+
+        <RadioButton
+            android:id="@+id/radioPOFF"
+            android:layout_gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:textColor="@color/Snow"
+            android:text="@string/poweroff"             />
+
+        <RadioButton
+            android:id="@+id/radioHIBERNATE"
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:textColor="@color/Snow"
+            android:layout_height="wrap_content"
+            android:text="@string/hibernate" />
+ 
+    </RadioGroup>
+   <Button
+        android:id="@+id/button_back"        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/backs"  />
+               </TableRow></TableLayout>
+            
+          
+            <Button
+        android:id="@+id/button_timeroff"        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:layout_gravity="center_horizontal"
+          android:background="@drawable/btnbg4"
+        android:text="@string/timeroff" />
+            
+                 
+            
+ 
+    
+    
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"        
+        android:text="@string/timeshutdown"        
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Snow" />
+    
+     <TableLayout        
+        android:id="@+id/fullscreen_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"        
+        android:isScrollContainer="true" >   
+         
+
+        <TableRow
+            android:id="@+id/TableRow01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/time1"
+                android:background="@drawable/btnbg4"
+                 >
+            </Button>           
+        
+            
+                 <Button
+                android:id="@+id/b3"
+                android:layout_marginBottom="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                  android:background="@drawable/btnbg4"
+                android:text="@string/time3"
+                 >
+            </Button>     
+              
+
+            <Button
+                android:id="@+id/b5"
+                android:layout_marginBottom="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                  android:background="@drawable/btnbg4"
+                android:text="@string/time5"
+                 >
+            </Button>
+            
+                <Button
+                android:id="@+id/b10"
+                android:layout_marginBottom="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                  android:background="@drawable/btnbg4"
+                android:text="@string/time10"
+                 >
+            </Button>           
+        </TableRow>
+         <TableRow
+            android:id="@+id/TableRow02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+        
+        
+            
+                 <Button
+                android:id="@+id/b20"
+                android:layout_marginBottom="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/time20"
+                  android:background="@drawable/btnbg4"
+                 >
+            </Button>     
+              
+
+            <Button
+                android:id="@+id/b30"
+                android:layout_marginBottom="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                  android:background="@drawable/btnbg4"
+                android:text="@string/time30"
+                 >
+            </Button>
+            
+              <Button
+                android:id="@+id/b45"
+                android:layout_marginBottom="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                  android:background="@drawable/btnbg4"
+                android:text="@string/time45"
+                 >
+            </Button>           
+        
+            
+                 <Button
+                android:id="@+id/b60"
+                android:layout_marginBottom="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                  android:background="@drawable/btnbg4"
+                android:text="@string/time60"
+                 >
+            </Button>     
+        </TableRow>
+         <TableRow
+            android:id="@+id/TableRow03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/b90"
+                android:layout_marginBottom="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                  android:background="@drawable/btnbg4"
+                android:text="@string/time90"
+                 >
+            </Button>
+             <Button
+                android:id="@+id/b120"
+                android:layout_marginBottom="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                  android:background="@drawable/btnbg4"
+                android:text="@string/time120"
+                 >
+            </Button>           
+        
+            
+                 <Button
+                android:id="@+id/b150"
+                android:layout_marginBottom="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                  android:background="@drawable/btnbg4"
+                android:text="@string/time150"
+                 >
+            </Button>     
+              
+
+            <Button
+                android:id="@+id/b180"
+                android:layout_marginBottom="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                  android:background="@drawable/btnbg4"
+                android:text="@string/time180"
+                 >
+            </Button>
+        </TableRow>
+         <TableRow
+            android:id="@+id/TableRow04"            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+           
+        </TableRow>
+        </TableLayout>
+
+  
+
+</LinearLayout>

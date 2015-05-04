@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.alexsoft.rc.music"
+    android:versionCode="26"
+    android:versionName="2.0.2.4" >
+    
+
+    <uses-sdk android:minSdkVersion="9" />
+    
+     <uses-permission android:name="android.permission.INTERNET" />	
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />	
+	<uses-permission android:name="android.permission.VIBRATE"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+	<supports-screens android:largeScreens="true">
+	    
+	</supports-screens>
+
+    <application
+        android:name="in.alexsoft.rc.music.MusicApplication"
+        android:allowBackup="true"        
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+           
+          <activity android:name="com.google.android.gms.ads.AdActivity"
+                  android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+           
+        <meta-data android:name="com.google.android.gms.version"
+               android:value="@integer/google_play_services_version"/> 
+        <activity
+            android:name="in.alexsoft.rc.music.clientactivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+          <activity android:name="in.alexsoft.rc.music.Preferenc"
+                  android:label="@string/settings_label" />
+          
+           <activity android:name="in.alexsoft.rc.music.About"
+                  android:label="@string/About"
+                  android:theme="@android:style/Theme.Dialog">
+        </activity>  
+           
+         <activity
+            android:name=".VolumeForm"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            android:label="@string/app_name" >            
+        </activity>
+        
+        <activity
+            android:name=".TimerForm"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            android:label="@string/app_name" >            
+        </activity>
+        
+        <activity android:name=".StartWizard"
+                  android:label="@string/About"
+                  android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        </activity>
+          
+        
+               <activity
+            android:name="in.alexsoft.rc.music.MusicForm"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            android:label="@string/app_name" >            
+        </activity>
+        
+        
+             
+        
+            <activity
+            android:name="in.alexsoft.rc.music.ADiscovery"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation" />
+            
+             <activity
+            android:name="in.alexsoft.rc.music.net.ActivityPortscan"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden">
+            <intent-filter>
+                <action android:name=".SCAN_HOST" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <!--
+                  Extras:
+                    HostBean.EXTRA_HOST         Host to scan: i.e. scanme.nmap.org or an IP
+                    HostBean.EXTRA_POSITION     Integer that will be put to the result intent
+                    HostBean.EXTRA_TIMEOUT      Maximum time a port can be reached, AKA scan rate
+                    HostBean.EXTRA_PORTSO       Integer array of already know open ports for this host
+                    HostBean.EXTRA_PORTSC       Integer array of already know closed ports for this host
+                 -->
+            </intent-filter>
+        </activity>
+        
+        
+        
+             
+             
+               <receiver android:name="widgetButton" android:label="RC power ON">
+		        <intent-filter>
+		                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+		                <action android:name="android.appwidget.action.ACTION_WIDGET_RECEIVER" />
+		        </intent-filter>
+		        <meta-data android:name="android.appwidget.provider"
+		                android:resource="@xml/provider" />
+		</receiver>
+		
+             <receiver android:name="widgetButtonOff" android:label="RC power OFF">
+		        <intent-filter>
+		                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+		                <action android:name="android.appwidget.action.ACTION_WIDGET_RECEIVER" />
+		        </intent-filter>
+		        <meta-data android:name="android.appwidget.provider"
+		                android:resource="@xml/provideroff" />
+		</receiver>
+		
+              <receiver android:name="widgetButtonHibernate" android:label="RC Hibernate">
+		        <intent-filter>
+		                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+		                <action android:name="android.appwidget.action.ACTION_WIDGET_RECEIVER" />
+		        </intent-filter>
+		        <meta-data android:name="android.appwidget.provider"
+		                android:resource="@xml/providerhibernate" />
+		</receiver>
+		
+             <receiver android:name="widgetButtonPlay" android:label="RC Play">
+		        <intent-filter>
+		                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+		                <action android:name="android.appwidget.action.ACTION_WIDGET_RECEIVER" />
+		        </intent-filter>
+		        <meta-data android:name="android.appwidget.provider"
+		                android:resource="@xml/providerplay" />
+		</receiver>
+		
+              <receiver android:name="widgetButtonVolup" android:label="RC Volume up">
+		        <intent-filter>
+		                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+		                <action android:name="android.appwidget.action.ACTION_WIDGET_RECEIVER" />
+		        </intent-filter>
+		        <meta-data android:name="android.appwidget.provider"
+		                android:resource="@xml/providervolup" />
+		</receiver>
+		
+               <receiver android:name="widgetButtonVoldown" android:label="RC Volume down">
+		        <intent-filter>
+		                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+		                <action android:name="android.appwidget.action.ACTION_WIDGET_RECEIVER" />
+		        </intent-filter>
+		        <meta-data android:name="android.appwidget.provider"
+		                android:resource="@xml/providervoldown" />
+		</receiver>
+		
+               <receiver android:name="widgetButtonMasterVolup" android:label="RC Master Vol up">
+		        <intent-filter>
+		                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+		                <action android:name="android.appwidget.action.ACTION_WIDGET_RECEIVER" />
+		        </intent-filter>
+		        <meta-data android:name="android.appwidget.provider"
+		                android:resource="@xml/providermastervolup" />
+		</receiver>
+		
+               <receiver android:name="widgetButtonMasterVoldown" android:label="RC Master Vol down">
+		        <intent-filter>
+		                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+		                <action android:name="android.appwidget.action.ACTION_WIDGET_RECEIVER" />
+		        </intent-filter>
+		        <meta-data android:name="android.appwidget.provider"
+		                android:resource="@xml/providermastervoldown" />
+		</receiver>
+		
+               <receiver android:name="widgetButtonPrev" android:label="RC Prev track">
+		        <intent-filter>
+		                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+		                <action android:name="android.appwidget.action.ACTION_WIDGET_RECEIVER" />
+		        </intent-filter>
+		        <meta-data android:name="android.appwidget.provider"
+		                android:resource="@xml/providerprev" />
+		</receiver>
+		
+                <receiver android:name="widgetButtonNext" android:label="RC Next track">
+		        <intent-filter>
+		                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+		                <action android:name="android.appwidget.action.ACTION_WIDGET_RECEIVER" />
+		        </intent-filter>
+		        <meta-data android:name="android.appwidget.provider"
+		                android:resource="@xml/providernext" />
+		</receiver>
+		
+                     <receiver android:name="widgetButtonPause" android:label="RC Pause">
+		        <intent-filter>
+		                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+		                <action android:name="android.appwidget.action.ACTION_WIDGET_RECEIVER" />
+		        </intent-filter>
+		        <meta-data android:name="android.appwidget.provider"
+		                android:resource="@xml/providerpause" />
+		</receiver>
+        
+          <receiver android:name="widgetButtonMute" android:label="RC Mute">
+		        <intent-filter>
+		                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+		                <action android:name="android.appwidget.action.ACTION_WIDGET_RECEIVER" />
+		        </intent-filter>
+		        <meta-data android:name="android.appwidget.provider"
+		                android:resource="@xml/providermute" />
+		</receiver>
+    
+         
+         
+    </application>
+
+</manifest>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/mastervolume"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Snow" />
+    
+ <Button
+        android:id="@+id/button_volup"        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/volup08"  />
+
+    <Button
+        android:id="@+id/button_vol99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+         
+        android:background="@drawable/btnbg3"
+        android:text="@string/volume99" />
+    
+    <Button
+        android:id="@+id/button_vol77"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+         
+        android:background="@drawable/btnbg3"
+        android:text="@string/volume77" />
+    
+       <Button
+        android:id="@+id/button_vol55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+         
+        android:background="@drawable/btnbg3"
+        android:text="@string/volume55" />
+       
+        <Button
+        android:id="@+id/button_vol33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+         
+        android:background="@drawable/btnbg3"
+        android:text="@string/volume33" />
+        
+         <Button
+        android:id="@+id/button_vol25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+         
+        android:background="@drawable/btnbg3"
+        android:text="@string/volume25" />
+
+          <Button
+        android:id="@+id/button_vol18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+         
+        android:background="@drawable/btnbg3"
+        android:text="@string/volume18" />
+  
+           <Button
+        android:id="@+id/button_vol7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+         
+        android:background="@drawable/btnbg3"
+        android:text="@string/volume7" />
+
+    <Button
+        android:id="@+id/button_voldown"
+                 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/voldown14"  />   
+
+</LinearLayout>

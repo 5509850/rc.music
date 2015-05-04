@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+     <TableLayout
+        android:id="@+id/TableLayout01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"        
+        android:isScrollContainer="true" >
+
+        <TableRow
+            android:id="@+id/TableRow01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+    
+    <TextView
+        android:id="@+id/txtStack"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        android:layout_marginTop="3sp"        
+        android:gravity="right"
+        android:text="@string/videosearch"
+        android:textColor="@color/Snow"        
+        android:textSize="15sp" />
+    
+   <EditText
+                android:id="@+id/editText_Search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAppearance="?android:attr/textAppearanceMedium" >
+            </EditText>
+            <Button
+                android:id="@+id/buttonx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X" />
+             
+             
+          
+            </TableRow>
+    </TableLayout>
+     
+   
+     
+    <TableLayout
+        android:id="@+id/TableLayout04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:isScrollContainer="true" >
+
+      
+
+        <TableRow
+            android:id="@+id/TableRow001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+               <Button
+                android:id="@+id/but_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:background="@drawable/prevtracks"
+                >
+            </Button>     
+             <Button
+                android:id="@+id/but_UP"
+                android:background="@drawable/upfiles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                >
+            </Button>
+            
+            
+
+           
+            <Button
+                android:id="@+id/but_PLAY"                
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/plays" > 
+                >
+            </Button>
+            
+               <Button
+                android:id="@+id/but_down"
+                android:background="@drawable/downfiles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                >
+            </Button>
+                
+            <Button
+                android:id="@+id/but_right"
+                android:background="@drawable/nexttracks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                >
+            </Button>
+               
+
+           
+        </TableRow>        
+      </TableLayout>
+         
+    <TableLayout
+        android:id="@+id/TableLayout07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:isScrollContainer="true" >
+        
+          <TableRow
+            android:id="@+id/TableRow05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/but_pgUP"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btnbg4"
+                android:text="pgUP"
+                >
+            </Button>
+           
+            <Button
+                android:id="@+id/but_fav"
+                android:text="Fav+"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:background="@drawable/btnbg4"
+                android:layout_height="wrap_content"
+                >
+            </Button>
+            
+              <Button
+                android:id="@+id/but_pgDN"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btnbg4"
+                android:text="pgDN"
+                >
+            </Button>
+            
+               
+            
+            <Button
+                android:id="@+id/but_orderFV"
+                android:text="Favorite Order"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:background="@drawable/btnbg4"
+                android:layout_height="wrap_content"
+                >
+            </Button>
+            
+                 <Button
+                android:id="@+id/but_exit"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/orange3"
+                android:background="@drawable/btnbg4"
+                android:text="@string/closeall"                
+                />
+
+        </TableRow>
+        
+     
+         <TableRow
+            android:id="@+id/TableRow00001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/but_orderLF"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btnbg4"
+                android:text="Last File Order"
+                >
+            </Button>
+                <Button
+                android:id="@+id/but_orderART"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btnbg4"
+                android:text="Artist Order"
+                />
+            <Button
+                android:id="@+id/but_orderNM"
+                android:text="Name Order"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:background="@drawable/btnbg4"
+                android:layout_height="wrap_content"
+                >                
+            </Button>
+             <Button
+                android:id="@+id/but_orderFD"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btnbg4"
+                android:text="Folder Order"
+                >
+            </Button>
+            
+              <Button
+                android:id="@+id/but_orderAlbum"
+                android:text="Album Order"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content" 
+                android:background="@drawable/btnbg4"                               
+                android:layout_height="wrap_content"
+                >
+            </Button>   
+                       
+        </TableRow>
+        
+
+</TableLayout>
+
+             <TableLayout
+        android:id="@+id/TableLayout0007"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:isScrollContainer="true" >
+        <TableRow
+            android:id="@+id/TableRow06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+             <Button
+                android:id="@+id/button_driveleft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+        		android:layout_marginRight="10dp"
+                android:background="@drawable/left" />
+             
+               <TextView
+        android:id="@+id/txtDrive"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+ 		android:layout_marginTop="5dp"    
+        android:gravity="center_vertical"
+        android:text="@string/driveselect"
+        android:textColor="@color/Snow"        
+        android:textSize="17sp" />
+
+          
+            <Button
+                android:id="@+id/button_driveright"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+        		android:layout_marginRight="10dp"
+                android:background="@drawable/right" />
+            </TableRow>
+            
+              <TableRow
+            android:id="@+id/TableRow07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+              <Button
+                android:id="@+id/button_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+        		android:layout_marginRight="10dp"
+        		android:background="@drawable/btnbg4"
+                android:textStyle="bold"
+                android:text="scan" />
+             <Button
+                android:id="@+id/button_fullscan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btnbg4"
+                android:layout_marginTop="5dp"
+        		android:layout_marginRight="10dp"
+                android:text="full scan" />
+              <Button
+                android:id="@+id/button_stopscan"
+                android:layout_width="wrap_content"
+                android:textColor="@color/red"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btnbg4"
+                android:layout_marginTop="5dp"
+        		android:layout_marginRight="10dp"
+                android:text="stop" />
+        </TableRow>
+        
+    </TableLayout>
+    
+     <TextView
+        android:id="@+id/txtInput"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+    </LinearLayout>

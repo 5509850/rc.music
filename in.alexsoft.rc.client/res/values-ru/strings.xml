@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Музыка. Пульт ПК</string>
+      <string name="allpc">все ПК</string>
+    <string name="versionprogram">20</string>
+    <string name="back">◄</string>
+    <string name="fast">скоростной режим</string>
+    <string name="fast_summary">скоростной режим без подтверждающего ответа от сервера</string>
+    
+    
+    
+    <string name="videosearch">Поиск</string>
+    
+    
+     <string name="calling">Входящий вызов</string>
+		<string name="calling_summary">Действие при входящем вызове</string>
+		
+		<string-array name="calling_value_array">
+		<item>1</item>
+			<item>2</item>
+			<item>3</item>		
+	</string-array>
+		
+		
+		<array name="servertype_array">		    
+			<item>Windows 7-XP</item>
+			<item>Windows 8</item>
+		</array>
+		
+		<string-array name="servertype_value_array">
+			<item>1</item>
+			<item>2</item>
+		</string-array>
+		
+		<string name="servertype_summary">тип связи с сервером</string>
+		<string name="servertype">тип сервера</string>
+		
+		<array name="calling_array">		    
+			<item>Номер входящего вызова</item>
+			<item>номер входящего вызова и пауза плеера</item>
+			<item>ничего</item>
+		
+		</array>	
+	
+			
+	<string name="list_server">Список серверов</string>
+    
+    <string name="btn_ping">Тест соединения</string>
+    <string name="live">соединение с сервером</string>
+      <string name="live_summary">Создавать каждый раз новое (надежнее) или поддерживать старое (быстрее).</string>
+    
+     <string name="adds">реклама</string>     
+      <string name="adds_summary">показывать рекламу</string>
+    
+    <string name="nextversion">функция будет добавлена в следующей версии client</string>
+    <string name="transfercontrol">Копирование файлов\nскриншот</string>
+    <string name="mousecontrol">Управление мышью сервера</string>
+    <string name="bscreenshot">Большой скр.</string>
+    <string name="screenshot">Скриншот</string>
+    <string name="exchange">Копир. файлов</string>    
+    <string name="noconnect">НЕ подключено</string>
+    <string name="memoapp">ЗАПУСК выбранного плеера, ВЫБРАТЬ плеер, ЗАКРЫТЬ все плееры</string>    
+	<string name="selectedplayer">Выбранный плеер (измененить)</string>    
+    <string name="start">Выполнить</string>
+    <string name="change">Изменить</string>
+    <string name="closeall">Закрыть</string>
+    <string name="lock">Блокир.</string>
+    
+    <string name="autocode_title">Автокод</string>
+	<string name="autocode_summary">При сканировании автоматически присваивать код</string>
+	
+		<string name="autoip_title">Все IP</string>
+	<string name="autoip_summary">Посылать комманды всем компьютерам в сети</string>
+    
+    
+    <string name="server_set">Доп. настройки сервера</string>
+    
+    <string name="notvalidmac">Не корректный MAC адрес сервера с ПК </string>
+    
+    <string name="empty"> </string>   
+    <string name="ip"></string>
+    
+    <string name="server_scan">Поиск сервера</string>
+    
+    <string name="screenlock">Блокировка экрана</string>
+			<string name="screenlock_summary">Не блокировать экран при работе программы</string>
+	
+	
+	<string name="settings_title">Настройки</string>
+	<string name="settings_label">Настройки программы</string>
+	
+	
+	<string name="ff">Промотка/следующий фильм</string>
+	<string name="ff_summary">промотка кадров или переход к следующему фильму/треку</string>	
+	
+	<array name="ff_array">
+	    <item>Перематывать фильм вперед/назад</item>
+		<item>Перейти к следующему по списку</item>				
+	</array>
+
+	<string-array name="ff_value_array">
+		<item>1</item>
+		<item>2</item>		
+	</string-array>
+	
+		<string name="ip_select_title">Тип плеера</string>
+	<array name="menuIP">
+			    <item>ВИДЕО</item>
+		    <item>МУЗЫКА</item>
+		    <item>ФОТО</item>	
+		    <item>ТВ тюнер</item>		
+			<item>Выбрать сервер</item>
+			<item>Изменить Тип Сервера</item>
+			<item>Другие плееры</item>
+	</array>
+	
+	<string name="playaudio_select_title">Тип списка</string>
+	<array name="menuPlaymusic">
+			    <item>Один трек</item>
+		    <item>Всю папку</item>
+		    <item>Весь альбом</item>	
+			<item>Артиста</item>
+			<item>Все треки</item>
+			<item>Случайно</item>
+	</array>
+	
+	<string name="master_title">Общая громкость</string>
+	<string name="master_summary">Общая громкость / громкость плеера</string>
+		
+	
+	<string name="vibro_title">Виброотклик</string>
+	<string name="vibro_summary">вибрировать при нажатии кнопок</string>
+
+	<string name="serverftp_title">Адрес сервера</string>
+	<string name="serverftp_summary">IP адрес сервера на компьютере</string>
+	
+	<string name="portftp_title">FTP порт сервера</string>
+	<string name="portftp_summary">FTP порт сервера на компьютере (по умолчанию 22)</string>
+	
+	<string name="portudp_title">UDP порт сервера</string>
+	<string name="portudp_summary">UDP порт сервера на компьютере (по умолчанию is 4568)</string>
+	
+	<string name="passftp_title">Код</string>
+	<string name="passftp_summary">код доступа к серверу - смотреть в RC Server</string>
+	
+	<string-array name="nettype_array">
+	    <item>wifi</item>
+	    <item>3G</item>
+	</string-array>
+	
+	
+	<string-array name="nettype_value_array">
+		<item>1</item>
+		<item>2</item>		
+	</string-array>
+	
+	
+	
+	<string name="power_select_title">Меню выключения ПК</string>
+	
+		<array name="menuPower">
+		<item>-=Вкл=-</item>
+		<item>Выключить</item>
+		<item>Перезагрузка</item>
+		<item>Завершение работы</item>		
+		<item>Спящий режим Hibernate</item>
+		<item>Режим ожидания Standby</item>		
+
+	</array>
+	
+		<string name="Code">Код</string>
+		<string name="ipadress">IP адрес ПК</string>
+		<string name="About">О программе</string>
+		<string name="about_text">Пульт.\n
+		    \nПрограмма \'ПУЛЬТ ПК - Музыка\' для управления музыкой на ПК с Android смартфона
+		    \nПрограмма состоит их клиента на смартфоне и сервера на ПК.   
+		    \nДля начала работы необходимо:
+\n0 Компьютер и смартфон должны быть подключены к одной сети WiFi.		    
+\n1 Скачать и установить на компьютер с windows программу (Remote Control Server) с http://alexsoft.in 
+\n2 Скачать и установить на устройство с Андроид клиента (Пульт) - это уже сделано :)
+\n3 Запустить сервер на ПК (при установке запускается автоматически и устанавливается в автозагрузку)
+\n4 Для Windows 7 всё готово к работе
+\n3 Для Windows 8 выберете в настройках windows 8 и запустите сканирование сети, выбрав найденный ПК для сохранения всех настроек, либо задайте все настройки вручную.
+
+\n\nДизайн - Василь Сайфутдин (Vasile Sayfutdin) www.dropr.com/vsf
+		    
+		    \n\n\nv 2.0.2.3 © AlexSoft. 2014г.
+		    \nhttp://alexsoft.in 
+</string>	
+
+		<string name="needwifi">Нужно подключение к домашней сети WiFi!</string>
+		<string name="simple_title">Тип работы</string>
+		
+		<string name="simple_summary">убрать галочку для ускорения работы</string>
+		
+		<string name="task_starting">Подключение к серверу.</string>
+		<string name="wait">ждите</string>
+		
+		<string name="yes">ОК</string>
+		<string name="no">Отмена</string>
+		
+		<string name="ipadressserver">IP адрес сервера</string>
+		<string name="ipadresstip">Введите IP адрес сервера с ПК. </string>
+		<string name="codewrong">Неверный код доступа - введите код с экрана компьютера и повторите попытку</string>
+		<string name="newcode">Новый код</string>
+		<string name="entercode">Введите код :</string>		
+		
+		<string name="searchurl">file:///android_asset</string>
+		
+		<string name="ftptransfererror">Ошибка передачи по FTP</string>
+		
+		
+			<string name="vol_select_title">Меню громкости</string>
+	
+			<array name="Menu_volume">
+		    <item>7  % ██</item>
+			<item>18 % ████</item>
+			<item>25 % ██████</item>
+			<item>33 % ████████</item>		
+			<item>55 % ██████████</item>
+			<item>77 % ████████████</item>
+			<item>99 % ██████████████</item>
+			
+	</array>		
+		
+	
+		<string name="timer_select_title">Меню выключения ПК</string>
+	
+
+		<array name="menuTimer">
+		    <item>Выкл. таймер</item>
+			<item>1 минута</item>
+			<item>3 минуты</item>
+			<item>5 минут</item>
+			<item>10 минут</item>
+			<item>20 минут</item>		
+			<item>30 минут</item>
+			<item>45 минут</item>
+			<item>1 час</item>
+			<item>1.5 часа</item>
+			<item>2 часа</item>
+			<item>2.5 часа</item>
+			<item>3 часа</item>
+
+	</array>
+	
+		<string name="apps_select_title">Меню выбора приложений</string>
+	
+
+		<array name="menuApps">
+		    <item>ВИДЕО</item>
+		    <item>МУЗЫКА</item>
+		    <item>ФОТО</item>			    
+			<item>VLC</item>
+			<item>PowerDVD</item>
+			<item>Windows Media Player</item>
+			<item>Total Media Theatre</item>
+			<item>Winamp Media Player</item>			
+			<item>jetAudio</item>
+			
+			<item>AIMP</item>
+			<item>GOM Media Player</item>
+			<item>KMPlayer</item>
+			<item>Media Player Classic HC</item>
+			<item>GOM Audio</item>
+			<item>PotPlayer</item>
+			<item>IPTV</item>
+			<item>BSPlayer</item>
+			<item>LightAlloy</item>
+			<item>BeholdTVtuner</item>
+			<item>Мой плеер 1</item>
+			<item>Мой плеер 2</item>
+			<item>Мой плеер 3</item>
+					
+			
+			<item>По умолчанию</item>			
+		
+	</array>
+	
+			
+	
+	
+		
+		
+		<string name="videoplayer">Видео аудио плеер</string>
+		<string name="video_summary">Выберете плеер по умолчанию</string>
+		
+		
+		
+		
+		<string name="myapp">https://play.google.com/store/apps/details?id=in.alexsoft.rc.client</string>
+		
+		<string name="task_cancelled">Отменено пользователем</string>
+		<string name="task_working">Проверка связи с сервером</string>
+		<string name="ipnotcorrect">Не верный IP адрес или не включен сервер или в Брандмауэре закрыт доступ к Remote Control Server</string>
+		<string name="ipbad">Не корректный IP адрес. Диапазон от 192.168.1.1 до 192.168.1.255</string>
+		<string name="ipnow">Текущий IP адрес:</string>		
+		
+		
+		
+		
+		<string name="wakeup_title">Включать ПК</string>
+		<string name="wakeup">Включение ПК</string>
+	<string name="wakeup_summary">Включать ПК по IP и MAC адресу</string>
+
+	
+		<string name="mac_title">MAC адрес</string>
+	<string name="mac_summary">MAC адрес сетевой платы ПК - смотреть в RC Server</string>
+	
+	<array name="v_array">
+		    <item>ВИДЕО</item>
+	    	<item>МУЗЫКА</item>
+	    	<item>ФОТО</item>
+		    </array>
+		    
+		    <string-array name="v_value_array">
+		        <item>1</item>
+			<item>2</item>
+			<item>3</item>
+		        </string-array>
+		
+	<array name="video_array">	
+	    	<item>ВИДЕО</item>
+	    	<item>МУЗЫКА</item>
+	    	<item>ФОТО</item>
+	    	    
+			<item>Vlc</item>
+			<item>PowerDVD</item>
+			<item>Windows Media Player</item>
+			<item>Total Media Theatre</item>
+			<item>Winamp</item>
+			<item>JetAudio</item>
+			
+			<item>AIMP</item>
+			<item>GOM Media Player</item>
+			<item>KMPlayer</item>
+			<item>Media Player Classic HC</item>
+			<item>GOM Audio</item>
+			<item>PotPlayer</item>
+			<item>IPTV</item>
+			<item>BSPlayer</item>
+			<item>LightAlloy</item>
+			<item>Behold TV tuner</item>
+			<item>My player 1</item>		
+			<item>My player 2</item>
+			<item>My player 3</item>
+			
+			<item>Default</item>
+		</array>	
+	
+		
+<string-array name="video_value_array">
+		<item>1</item>
+			<item>2</item>
+			<item>3</item>
+			<item>4</item>			
+			<item>5</item>
+			<item>6</item>
+			
+			<item>7</item>
+			<item>8</item>
+			<item>9</item>
+			<item>10</item>
+			<item>11</item>
+			<item>12</item>
+			
+			<item>13</item>
+			<item>14</item>
+			<item>15</item>
+			<item>16</item>
+			<item>17</item>
+			<item>18</item>
+			<item>19</item>
+			<item>20</item>
+			
+			<item>21</item>
+			<item>22</item>
+			<item>23</item>
+	</string-array>
+				
+				
+		<string name="entermac">Не указан MAC адрес компьютера - смотреть в программе RC Server</string>
+		
+		<string name="tema">Тема</string>
+		<string name="tema_summary">выбор темы оформления фона</string>
+	
+			<array name="tema_array">		    
+			<item>Темная</item>
+			<item>Светлая</item>
+			<item>ГОА</item>			
+		</array>	
+	
+		
+<string-array name="tema_value_array">
+		<item>1</item>
+			<item>2</item>
+			<item>3</item>
+			
+	</string-array>
+	
+<!-- ************************** NETWORK *********************** -->
+			
+	<string name="app_loading">Загрузка</string>
+    <string name="btn_yes">Да</string>
+    <string name="btn_no">Нет</string>
+    <string name="btn_ok">Ок</string>
+    <string name="btn_discover">Поиск</string>
+    <string name="btn_discover_cancel">Отмена</string>
+    <string name="btn_export">Экспорт</string>
+    <string name="btn_close">Закрыть</string>
+    <string name="btn_scan">Сканировать</string>
+    <string name="btn_options">Настройки</string>
+    <string name="btn_back">Назад</string>
+    <string name="btn_info">Инфо</string>
+    <string name="btn_ports">Порты</string>
+    <string name="btn_remove">Удалить</string>
+    
+    <string name="task_db">Загрузка и установка %s базы данных ...</string>
+    <string name="task_services">Создание сервиса базы данных ...\nTЭто потребует времени ...</string>
+ 
+    <string name="package_missing">%s должен быть установлен с маркета !</string>
+    
+    <string name="wifi_enabled">Wifi доступен</string>
+    <string name="wifi_enabling">Wifi включен</string>
+    <string name="wifi_disabling">Wifi отключен</string>
+    <string name="wifi_disabled">Wifi не доступен</string>
+    <string name="wifi_scanning">Wifi сканирование</string>
+    <string name="wifi_associating">Wifi ассоциирован с %s</string>
+    <string name="wifi_dhcp">Получение IP адреса от %s</string>
+    <string name="wifi_unknown">Wifi статус не определен</string>
+    
+    <string name="net_ip">IP: %1$s/%2$d (%3$s)</string>
+    <string name="my_ip">%1$s</string>
+    <string name="net_carrier">CARRIER: %s</string>
+    <string name="net_ssid">SSID: %s</string>
+    <string name="net_mode">Режим: %s</string>
+    <string name="net_mode_wifi">WiFi (%1$s %2$s)</string>
+    <string name="net_mode_mobile">Мобильная</string>
+    <string name="net_mode_eth">Ethernet (не поддерживается)</string>
+    <string name="net_mode_unknown">Неопределен</string>
+    
+    <string name="discover_start">Сканирование ...</string>
+    <string name="discover_finished">Сканирование завершено - выберете ваш ПК (сервер)</string>
+    <string name="discover_canceled">Сканирование отменено !</string>
+    <string name="discover_proxy_title">Ошибка прокси</string>
+    <string name="discover_proxy_msg">Сканирование отменено, потому что mac адресс определен несколько раз,возможно вы используете прокси.\n\nПерейдите по адресу в вашем браузере : http://%s</string>
+    <string name="discover_root_title">Установите: Root</string>
+    <string name="discover_root_install">Установить сервис сканирования для Root ?</string>
+    <string name="discover_root_restart">Перезапуск приложения ...</string>
+    <string name="discover_empty">Нажмите ПОИСК для старта сканирования</string>
+    <string name="discover_action_title">Выберете действие</string>
+    <string name="discover_action_scan">Сканирование портов</string>
+    <string name="discover_action_assign">Выбрать сервер</string>
+    <string name="discover_action_check">Проверить связь с сервером</string>
+    <string name="discover_action_rename">Переименовать сервер</string>
+    <string name="discover_action_up">Переместить наверх</string>
+    <string name="discover_action_down">Переместить вниз</string>
+    <string name="discover_action_del">Удалить</string>
+    
+    <string name="discover_action_saved">IP и MAC адреса сохранены!</string>
+    <string name="discover_action_deleted">Имя удалено!</string>
+    <string name="discover_myphone_name">Мой телефон</string>
+        
+    <string name="scan_single_title">Сканирование IP</string>
+    <string name="scan_single_summary">Введите IP адрес или FQDN для сканирования, например scanme.nmap.org</string>
+    <string name="scan_noport">Не найдено открытых портов !</string>
+    <string name="scan_noaction">Действие не определено !</string>
+    <string name="scan_connect">Соединение</string>
+    <string name="scan_start">Начало сканирования ...</string>
+    <string name="scan_finished">Сканирование завершено !</string>
+    <string name="scan_canceled">Сканирование отменено !</string>
+    <string name="scan_open">Открыто (%s)</string>
+    <string name="scan_closed">Закрыто (%s)</string>
+    <string name="scan_host_unreachable">Узел недоступен !</string>
+    <string name="scan_banner_title">Порт %s/tcp</string>
+    
+    <string name="info_time">Время отклика:</string>
+    <string name="info_mac">MAC Адресс:</string>
+    <string name="info_nic">NIC производитель:</string>
+    <string name="info_ports_open">Открытые порты:</string>
+    <string name="info_ports_closed">Закрытые порты:</string>
+    <string name="info_unknown">комп №</string>
+    
+    <string name="export_finished">Файл сохранен !</string>
+    <string name="export_choose">Выберете расположение файла</string>
+    <string name="export_save">Сохранить</string>
+    <string name="export_exists_title">Файл уже существует</string>
+    <string name="export_exists_msg">Вы хотите перезаписать файл ?</string>
+    
+    <string name="help_discovery_title">Сканирование узлов</string>
+    <string name="help_discovery_content">The method that is being used, does not need to have root privileges. In future release there will be more advanced techniques, once the non-root ones are polished.\n\nHere is how it works: \n1. Calculate the subnetwork range\n2. Iterate throught IP and query them\n3. First it sends an ICMP ping or Echo on tcp/7 (with InetAddress.isReachable())\n4. If it does not work, it tries to connect() on well known open tcp ports such as: 135, 139, 22, 111, 80\n5. If none of the above is successful, the host is not discovered</string>
+    <string name="help_portscan_title">Port scan</string>
+    <string name="help_portscan_content">Port scan is event driven, using Java\'s Selector and SocketChannel.\nThere is a fake timeout by registrering the time in ms at socket\'s creation and checking regularly this value.\nThe port scan method, as discovery, uses full tcp connection check. (will be more granular in the future with root features.)\n\nA maximum of 127 Sockets are opened at a time, so this is not always accurate, but quite fast. Again, a new feature is coming that will adapt times between requests according to host response time (kind of software network congestion control)\n\nA port is considered open when tcp connect() is fully successful, closed when no service is listening on the other end, or filtered when the timeout is reached.</string>
+    <string name="help_links_title">Links</string>
+    <string name="help_links_content">- TCP connect scan: http://nmap.org/book/man-port-scanning-techniques.html#id421401\n\n- Host discovery: http://nmap.org/book/man-host-discovery.html</string>
+    
+    <string name="preferences_help">Помощь</string>
+    <string name="preferences_export">Экспорт</string>
+    <string name="preferences_credits">Credits</string>
+    <string name="preferences_discover">Сканирование</string>
+    <string name="preferences_portscan">Сканирование портов</string>
+    <string name="preferences_advanced">главное</string>
+    
+    <string name="preferences_donate">Donate: If you like this app, you can buy me a beer.</string>
+    <string name="preferences_resolve_name_title">Определение Hostname</string>
+    <string name="preferences_resolve_name_summary">Используйте DNS для определения ip адресов</string>
+    <string name="preferences_vibrate_title">Вибро</string>
+    <string name="preferences_vibrate_summary">Вибро по завершению сканирования</string>
+    <string name="preferences_ratecontrol_enable_title">Контроль скорости</string>
+    <string name="preferences_ratecontrol_enable_summary">Автоматическое определение скорости</string>
+    <string name="preferences_timeout_discover_title">Произвольная скорость</string>
+    <string name="preferences_timeout_discover_summary">Скорость сканирования в миллисекундах</string>
+    <string name="preferences_port_start_title">Первый порт</string>
+    <string name="preferences_port_start_summary">Первый TCP Port для сканирования. 1-65535</string>
+    <string name="preferences_port_end_title">Последний порт</string>
+    <string name="preferences_port_end_summary">Последний TCP порт для сканирования. 1-65535</string>
+    <string name="preferences_banner_title">Сервси баннеров</string>
+    <string name="preferences_banner_summary">Read banner from a connected socket (ex.: SSH-2.0-OpenSSH_5.1p1)</string>
+    <string name="preferences_timeout_force_title">Таймаут</string>
+    <string name="preferences_timeout_force_summary">Ручное определение таймаута</string>
+    <string name="preferences_timeout_title">Таймаут соединения</string>
+    <string name="preferences_timeout_summary">таймаут соединения с портом в миллисекундах</string>
+    <string name="preferences_allow_mobile_title">Разрешить мобильное сканирование</string>
+    <string name="preferences_allow_mobile_summary">Сканировать используя edge/3g/... обычно приводит к странным результатам.</string>
+    <string name="preferences_ssh_user_title">SSH User</string>
+    <string name="preferences_ssh_user_summary">Username for the SSH connection</string>
+    <string name="preferences_threads_title">Threads pool</string>
+    <string name="preferences_threads_summary">Maximum number of threads to use in host discovery (1-256)</string>
+    <string name="preferences_resetdb_title">Update NIC Database</string>
+    <string name="preferences_resetdb_summary">Pull and update MAC addresses database</string>
+    <string name="preferences_resetdb_action">Do you want to download %1$s ? (~%2$sk)</string>
+    <string name="preferences_resetdb_ok">Database updated ! %s new entries ...</string>
+    <string name="preferences_version_title">Версия</string>
+    <string name="preferences_website_title">Website</string>
+    <string name="preferences_email_title">Contact</string>
+    <string name="preferences_intf_title">Сетевой интерфейс</string>
+    <string name="preferences_intf_summary">Выберете используемый сетевой интерфейс</string>
+    <string name="preferences_discover_method_title">Метод сканирования</string>
+    <string name="preferences_discover_method_summary">Change to different method of host discovery</string>
+    <string name="preferences_discover_method_title_dialog">Choose a method</string>
+    <string name="preferences_ip_start_title">IP start</string>
+    <string name="preferences_ip_start_summary">First IP address to scan</string>
+    <string name="preferences_ip_end_title">IP end</string>
+    <string name="preferences_ip_end_summary">Last IP address to scan</string>
+    <string name="preferences_ip_custom_title">Custom IP range</string>
+    <string name="preferences_ip_custom_summary">Manually set start/end IPs</string>
+    <string name="preferences_cidr_custom_title">Custom CIDR</string>
+    <string name="preferences_cidr_custom_summary">Manually set CIDR (defines subnet)</string>
+    <string name="preferences_cidr">Change CIDR</string>
+    
+    <string name="preferences_error1">Error: First is bigger than Last !</string>
+    <string name="preferences_error2">Error: Number of Threads must be between 1 and 256 !</string>
+    <string name="preferences_error3">Error: File transfer interrupted !</string>
+    <string name="preferences_error4">Error: Value is not a valid IP address !</string>
+    
+    <string-array name="method_discover_name"> 
+        <item>Ping/connect (default)</item>
+        <item>DNS requests</item>
+    </string-array>
+				
+    <string name="space">12345678901234567890123456789012345678901234567890123456789012345678901234567890\n  
+        1234567890\n
+        1234567890\n
+        1234567890\n
+        1234567890\n
+        1234567890\n
+        1234567890\n
+        1234567890\n
+        1234567890\n
+        1234567890\n
+        1234567890\n
+        1234567890\n
+        1234567890\n
+        1234567890\n
+        1234567890\n
+        1234567890\n
+        1234567890\n
+        1234567890\n
+        1234567890\n
+        1234567890\n    </string>	
+    
+
+    
+    <string name="manual">Мастер Настройки</string>
+    <string name="poweroff">Выключение</string>
+    <string name="hibernate">Гибернация</string>
+    <string name="timermenu">Меню выключения ПК по таймеру</string>
+    
+    <string name="timeroff">Отключить таймер</string>
+    <string name="timeshutdown">ПК выключится через X минут</string>
+    <string name="time1">1 минута</string>
+    <string name="time3">3 минуты</string>
+    <string name="time5">5 минут</string>
+    
+    <string name="time10">10 минут</string>
+    <string name="time20">20 минут</string>
+    <string name="time30">30 минут</string>
+    
+    <string name="time45">45 минут</string>
+    <string name="time60">1 час</string>
+    <string name="time90">1.5 часа</string>
+    
+    <string name="time120">2 часа</string>
+    <string name="time150">2.5 часа</string>
+    <string name="time180">3 часа</string>
+    
+    <string name="mastervolume">Основная Громкость</string>
+    <string name="volume99">██████████████ % 99 </string>
+    <string name="volume77">████████████ % 77 </string>
+    <string name="volume55">██████████ % 55 </string>
+    <string name="volume33">████████ % 33 </string>
+    <string name="volume25">██████ % 25 </string>
+    <string name="volume18">████ %  18 </string>
+    <string name="volume7">██ % 7 </string>
+    
+    <string name="win7">Windows 7</string>
+    <string name="win8">Windows 8</string>
+    <string name="driveselect">Выберете диск</string>
+	<string name="wizardset">Мастер Настройки</string>     
+	<string name="wizardsetstep">Шаг #</string>
+	<string name="aboutwizard">BLA bla bla \n bla bla bla \n bla bla bla \n bla bla bla \n bla bla bla \n
+	    BLA bla bla \n bla bla bla \n bla bla bla \n bla bla bla \n bla bla bla</string>
+	    
+	<string name="aboutwizard1">Во-первых - Скачайте и установите на компьютре \'REMOTE CONTROL SERVER\' с сайта WWW.ALEXSOFT.IN
+	    \n\nСистемные требования: домашняя сеть, к которой подключены компьютер и смартфон через WI-FI,  Android 2.1 и выше, ПК на Windows XP/7/8  
+	    \n\n Программа (клиент) устанавливается на смартфон, 
+	    \nпрограмма (сервер) устанавливается на ПК.	     
+	    \n\nПри установке RC Server необходимо  - \'Разрешить доступ\' для фаервола (брандмауэра).
+	    </string>
+
+<string name="aboutwizard2">Выберете версию вашей системы на ПК - Windows 7 (или XP) или Windows 8. 
+	    \n\n Для Windows 7 используется UDP соединение с широковещательной трансляцией на всю локальную сеть без учета IP адреса компьютера.
+	    \n\n Это самый простой способ для настройки программы. Но этот способ не работает в  Windows 8. Для Windows 8 вам нужно использовать FTP соединение с дополнительными настройками IP адреса и кода доступа.
+	    </string>
+	    
+<string name="aboutwizard3">Все настройки завершены. Проверьте соединение - Нажмите кнопку \'Время\'. Если на экране ПК появится текущее время, то всё настроено правильно. Поздравляем!
+	    \n\n Если время не появится и вы используете антивирус AVAST, то отключите антивирус или добавьте программу в исключения, если и это не поможет, то 
+	    вернитесь на шаг назад и выберете Windows 8 (FTP соединение) и попробуйте снова проверить работу соединения.
+	    </string>
+	    
+<string name="aboutwizard4">Вы должны выбрать поиск сервера в настройках, найти ваш ПК и выбрать сервер для применения всех настроек. 
+	    \n\n Нажмите \'Поиск\'. Когда ваш ПК будет показан в списке, нажмите на него и выбере в меню \'Выбрать сервер\'
+	    \n\n Потом нажмите кнопку \'Показать время\'. Если на экране ПК появится текущее время, то все настройки завершены и соединение работает правильно. Поздравляем!
+	    \n\n Если соединение не работает, попробуйте задать настройки вручную в меню \'Доп. настройки сервера\'
+	    \n\n Для статического IP на ПК всё будет работать и после перезагрузки ПК. Если вы используете динамический IP адрес, то после перезагрузки вам придется заново запустить сканирование сети - поиск сервера и выбрать найденный сервер.
+	    \n\n Но ваш \'код доступа\' на ПК будет иметь старое значение и вам необходимо выключить в настройках клиента \'Автокод\' перед тем, как выберете сервер в меню \'поиск сервера\'.  
+	    </string>
+	    
+	    <string name="aboutwizard5">Для \'Включения ПК\' с пульта вам необходимо:
+	    \n1) Задать MAC address в меню \'Доп. Настройки сервера\' в клиенте такой же как и на сервере. Либо воспользоваться поиском сервера и выбора найденного ПК, в этом случае MAC address будет присвоен автоматически. 
+	    \n2) В диспетчере устройств в свойствах \'сетевого адаптера\' нужно разрешить выводить компьютер из ждущего режима с помощью магического пакета. Либо включить режим \'WAKE ON LAN\' в BIOS ПК.
+	    \n3) После поключения ПК к 220 вам необходимо хотя бы один раз включить его вручную, чтобы после выключения можно было включать его уже через WiFi сеть с помощью пульта. 
+	    </string>
+	    
+	     <string name="aboutwizard6">Для \'Включения ПК\' с пульта вам необходимо:
+	    \n1) Проверить MAC address в меню \'Доп. Настройки сервера\' в клиенте и сервере. Либо воспользоваться поиском сервера и выбора найденного ПК, в этом случае MAC address будет присвоен автоматически. 
+	    \n2) В диспетчере устройств в свойствах \'сетевого адаптера\' нужно разрешить выводить компьютер из ждущего режима с помощью магического пакета. Либо включить режим \'WAKE ON LAN\' в BIOS ПК.
+	    \n3) После поключения ПК к 220 вам необходимо хотя бы один раз включить его вручную, чтобы после выключения можно было включать его уже через WiFi сеть с помощью пульта. 
+	
+	    </string>
+	    
+	     <string name="please_wait">Подождите, пожалуйста</string>
+	     <string name="advertisment_is_loading">Реклама загружается&#8230;</string>
+	     
+	     	     <string name="playlist">Плейлист</string>
+		
+
+</resources>    
+

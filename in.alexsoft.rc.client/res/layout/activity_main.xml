@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".clientactivity" >
+
+    <!-- banner_type  [rich_media, medium_rectangle, image, inappad] -->
+    <!-- animation [fade, left_to_right, top_down] -->
+    <!-- placementType [interstitial, inline] only for rich_media banner type -->
+
+    <com.zmsmoxpdm.gwxjapvnn15994.AdView
+        xmlns:airpush="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/myAdview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        airpush:animation="fade"
+        airpush:banner_type="inappad"
+        airpush:canShowMR="true"
+        airpush:placementType="interstitial"
+        airpush:test_mode="false" />
+
+    <WebView
+        android:layout_below="@id/myAdview"
+        android:id="@+id/adWebView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</RelativeLayout>

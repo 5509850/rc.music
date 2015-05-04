@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>    
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/itemAbout"
+        android:checkable="false"
+        android:enabled="true"
+        android:menuCategory="system"
+        android:title="@string/About"
+        android:titleCondensed="@string/About"
+        android:visible="true">
+    </item>
+    <item
+        android:id="@+id/itemSetting"
+        android:checkable="false"
+        android:enabled="true"
+        android:menuCategory="system"
+        android:title="@string/settings_label"
+        android:titleCondensed="@string/settings_title"
+        android:visible="true">
+    </item>
+    <item
+        android:id="@+id/itemScan"
+        android:checkable="false"
+        android:enabled="true"
+        android:menuCategory="secondary"
+        android:title="@string/manual"
+        android:titleCondensed="@string/manual"
+        android:visible="true">
+    </item>
+    
+     <item
+        android:id="@+id/itemPlaylist"
+        android:checkable="false"
+        android:enabled="true"
+        android:menuCategory="secondary"
+        android:title="@string/playlist"
+        android:titleCondensed="@string/playlist"
+        android:visible="true">
+    </item>
+
+</menu>

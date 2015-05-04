@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >    
+    
+     <Preference
+        android:key="manual"
+        android:title="@string/manual"/>
+    
+
+    <PreferenceScreen
+        android:summary=""
+        android:title="@string/server_set" >
+         
+        <EditTextPreference
+            android:name="EditText Preference"
+            android:defaultValue="192.168.1.0"
+            android:key="serverftp"
+            android:summary="@string/serverftp_summary"
+            android:title="@string/serverftp_title" />
+
+           <EditTextPreference
+        android:name="EditText Preference"
+        android:defaultValue="test"
+        android:key="passftp"
+        android:summary="@string/passftp_summary"
+        android:title="@string/passftp_title" />
+
+        <EditTextPreference
+            android:name="EditText Preference"
+            android:defaultValue="XX-XX-XX-XX-XX-XX"
+            android:key="mac"
+            android:summary="@string/mac_summary"
+            android:title="@string/mac_title" />        
+    </PreferenceScreen>
+    
+     <Preference
+        android:key="wifi"
+        android:title="@string/server_scan"/>    
+    
+     <ListPreference
+        android:entries="@array/servertype_array"
+        android:entryValues="@array/servertype_value_array"
+        android:key="servertype"
+        android:summary="@string/servertype_summary"
+        android:title="@string/servertype" />
+   
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="vibro"
+        android:summary="@string/vibro_summary"
+        android:title="@string/vibro_title" />
+    
+     <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="autocode"
+            android:summary="@string/autocode_summary"
+            android:title="@string/autocode_title" />
+     
+          <Preference
+        android:key="about"
+        android:title="@string/About"/>   
+    
+   
+        <EditTextPreference
+            android:name="EditText Preference"
+            android:defaultValue="qwe#sdf6AsdfgzTs"
+            android:enabled="false"
+            android:key="nameftp"
+            android:summary="@string/empty"
+            android:title="@string/empty" />
+
+</PreferenceScreen>

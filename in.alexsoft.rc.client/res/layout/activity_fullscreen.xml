@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+     >
+ 
+      <TableLayout        
+        android:id="@+id/fullscreen_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:isScrollContainer="true" >   
+         
+
+        <TableRow
+            android:id="@+id/TableRow01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/buttonMute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mutepc01" >
+            </Button>           
+        
+                 <Button
+                     android:id="@+id/status"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:background="@drawable/networkstatus02"
+                     android:gravity="top|center_horizontal"
+                     android:height="@dimen/activity_horizontal_margin"
+                     android:maxHeight="@dimen/activity_vertical_margin"
+                     android:text="Info"
+                     android:textColor="@color/Gray"
+                     android:textSize="16sp"
+                     android:textStyle="italic" >
+
+            </Button>     
+              
+
+            <Button
+                android:id="@+id/mute_player"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/muteplayer03" >
+            </Button>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/lockscreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"                
+                android:background="@drawable/lock04" >
+            </Button>
+            
+            <Button
+                android:id="@+id/buttonpower"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/powermanage05" >
+            </Button>
+            
+            <Button
+                android:id="@+id/button_vol_percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/volpercent06" >
+            </Button>
+
+            
+        </TableRow>
+
+            
+        
+        <TableRow
+            android:id="@+id/TableRow03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+          
+            <Button
+                android:id="@+id/button_show_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"                
+                android:background="@drawable/showtime07" >
+            </Button>
+
+            
+             <Button
+                android:id="@+id/button_vol_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/volup08" >
+            </Button>
+
+           <Button
+                android:id="@+id/buttonTimer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"                
+                android:background="@drawable/timer09" >
+            </Button>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button_prev_track"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/prevtrack10" >
+            </Button>
+
+            <Button
+                android:id="@+id/buttonPlay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/play11" >
+            </Button>
+            
+            <Button
+                android:id="@+id/button_next_track"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/nexttrack12" >
+            </Button>
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/TableRow05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button_full_stop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fullstop13" >
+            </Button>
+
+            <Button
+                android:id="@+id/button_vol_down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/voldown14" >
+            </Button>
+            
+            <Button
+                android:id="@+id/button_pause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/pause15" >
+            </Button>
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/TableRow06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button_playlist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/playlist16" >
+            </Button>
+
+            <Button
+                android:id="@+id/button_full_screen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fullscreen17" >
+            </Button>
+            
+            <Button
+                android:id="@+id/button_settings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/settings18" >
+            </Button>
+        </TableRow>
+       
+    </TableLayout>   
+   
+       <LinearLayout
+         android:id="@+id/mainLayoutcenter"
+             android:orientation="vertical"
+         android:layout_width="match_parent"
+				        android:layout_height="wrap_content"    					
+    					android:layout_gravity="center"   />
+        <LinearLayout
+         android:id="@+id/mainLayout"
+             android:orientation="vertical"
+         android:layout_width="match_parent"
+				        android:layout_height="wrap_content"    					
+    					android:layout_gravity="bottom|center"   />
+       
+       
+    
+     
+   
+</FrameLayout>
